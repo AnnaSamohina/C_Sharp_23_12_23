@@ -3,11 +3,4 @@
 int a = int.Parse(Console.ReadLine()!);
 
 if(a < 100){Console.WriteLine("нет");}
-else{Console.WriteLine("да " + a / 100 % 100);}
-
-
-
-//int a = int.Parse(Console.WriteLine()!);
-
-//if(a < 100){Console.WriteLine("Нет");}
-//else{Console.WriteLine("да" + a / 100 % 10);}
+else{Console.WriteLine("да " + a / 100 % 10);}
