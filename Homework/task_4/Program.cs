@@ -2,11 +2,11 @@
 
 using System;
 
-int n=0;
+Int64 n=0;
 string result="";
 
 Console.Write("Enter a natural number: ");
-n = int.Parse(Console.ReadLine()!);
+n = Int64.Parse(Console.ReadLine()!);
 
 if(n<=0) { 
     Console.Write(n+" is not a natural number!");
