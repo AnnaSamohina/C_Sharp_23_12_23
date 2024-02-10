@@ -22,6 +22,6 @@ Console.WriteLine(num1 + num1);
 //ещё короче (компактный способ записи)
 
 Console.Write("Enter a number: ");
-int num1 = int.Parse(Console.ReadLine()!);
+int _ = int.Parse(Console.ReadLine()!);
 Console.WriteLine(num1 * num1);
 
